@@ -1,0 +1,21 @@
+@startuml
+start
+:Referee starts the match;
+:Players throw their bowling balls;
+:Scores are recorded for each player;
+
+if (Is the match finished?) then (Yes)
+    :The system compares the scores;
+    if (Does one player have a higher score?) then (Yes)
+        :The system declares the winner;
+    else (No)
+        :The match is a draw;
+    endif
+    :The system saves the result;
+    :The match ends;
+else (No)
+    :Next round is played;
+endif
+
+stop
+@enduml

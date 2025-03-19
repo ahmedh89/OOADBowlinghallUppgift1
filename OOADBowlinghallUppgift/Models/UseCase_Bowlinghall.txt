@@ -1,0 +1,11 @@
+﻿#### Use Case: Registrera resultat
+- **Titel:** Registrera resultat  
+- **Beskrivning:** Efter en match registreras spelarnas poäng och en vinnare utses.  
+- **Aktör:** Domare  
+- **Huvudscenario:**
+  1. Domaren öppnar resultatregistreringsfunktionen.
+  2. Domaren anger poäng för båda spelarna.
+  3. Systemet sparar resultatet.
+  4. Systemet avgör vinnaren och bekräftar registreringen.  
+- **Alternativt flöde:**
+  - Om ogiltiga poäng anges, visar systemet ett felmeddelande.
